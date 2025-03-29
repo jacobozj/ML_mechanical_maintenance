@@ -12,24 +12,22 @@ This project applies **Machine Learning (ML) algorithms** to predictive maintena
 - **Matplotlib & Seaborn**: Data visualization
 - **Jupyter Notebook**: Interactive environment for model evaluation
 
-## 📂 Project Structure
-
-├── data/ # Dataset files ├── notebooks/ # Jupyter notebooks with analysis ├── src/ # Source code for ML models ├── results/ # Output files and performance reports └── README.md # Project documentation
-
 ## 📊 Machine Learning Models
 
-This project evaluates the following ML algorithms for maintenance prediction:
+This project utilizes the following ML algorithms for predictive maintenance:
 
-- **K-Nearest Neighbors (KNN)**: Used for initial classification
-- **Random Forest**: Applied for improved accuracy and robustness
-- **Confusion Matrix & Precision Metrics**: Used to assess model performance
+- **K-Nearest Neighbors (KNN)**: Used for classifying machine operational states based on historical sensor data.
+- **K-Means Clustering**: Applied for unsupervised learning to identify patterns in the data.
+- **StandardScaler**: Used for feature normalization to ensure better model performance.
+- **Evaluation Metrics**:
+  - **Accuracy Score**: Measures the overall correctness of the KNN model.
+  - **Confusion Matrix**: Provides insights into misclassified instances and helps fine-tune the model.
 
 ## 🚀 How to Run the Project
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
-   Install dependencies:
+   git clone https://github.com/jacobozj/ML_mechanical_maintenance.git
    ```
 2. Install dependencies:
    ```bash
@@ -40,7 +38,6 @@ This project evaluates the following ML algorithms for maintenance prediction:
    jupyter notebook mecanica.ipynb
    ```
    Run the notebook mecanica.ipynb to train and evaluate the models.
-   ```
 
 ## 🔍 Key Features
 
