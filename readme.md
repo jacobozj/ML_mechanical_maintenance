@@ -7,7 +7,7 @@ This project applies **Machine Learning (ML) algorithms** to predictive maintena
 ## 🛠️ Technologies Used
 
 - **Python**: Core programming language
-- **Scikit-Learn**: Machine Learning models (KNN, Random Forest)
+- **Scikit-Learn**: Machine Learning models (KNN, K means)
 - **Pandas & NumPy**: Data manipulation and preprocessing
 - **Matplotlib & Seaborn**: Data visualization
 - **Jupyter Notebook**: Interactive environment for model evaluation
@@ -43,7 +43,7 @@ This project utilizes the following ML algorithms for predictive maintenance:
 
 Data Preprocessing & Normalization: Uses StandardScaler to normalize sensor readings.
 
-Model Training & Evaluation: Compares KNN vs. Random Forest for accuracy.
+Model Training & Evaluation: Use of KNN and K means for accuracy.
 
 Real-time Prediction: Allows input of new sensor values to classify machine status.
 
